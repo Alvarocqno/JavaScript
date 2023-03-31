@@ -6,25 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de Idades</title>
     <link rel="stylesheet" href="estilo.css">
+
 </head>
 <body>
     <header>
         <h1>Verificador de idades</h1>
     </header>
-    <section>
-        <div>
-            <label for="">Ano de nascimento</label>
+    <form action="">
+        <fieldset>
+            <legend for="">Ano de nascimento</legend>
             <input type="date" name="" id=""> <br>
-
-            <label for="sexo">Sexo: </label>
-            <input type="checkbox" name="masculino" id="imasculino">Masculino
-            <input type="checkbox" name="feminino" id="ifeminino">Feminino
-        </div>
-     
-    </section>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo: </legend>
+            <input type="radio" name="sexo" id="imasculino"><label for="imasculino">Masculino</label>
+            <input type="radio" name="sexo" id="ifeminino"><label for="ifeminino">Feminino</label> <br>
+        </fieldset>
+        <input id="verificador" type="button" value="Verificar" onclick="analisar()">
+        <h4> </h4>
+    </form>
+    
+    
     <footer>
-        <p>&copy; Curso em Vídeo</p>
+        <p>&copy; Alvaro C.</p>
     </footer>
-    <script src="script.js"></script>
+    <script>
+        
+        function analisar() {
+            var sexo = document.getElementById('0') 
+            if ()
+        }
+
+    </script>
 </body>
 </html>

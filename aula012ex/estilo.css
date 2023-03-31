@@ -8,13 +8,17 @@ header {
     text-align: center;
 }
 
-section {
+form {
     background: white;
     border-radius: 10px;
     padding:  15px;
     width: 500px;
     margin: auto;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#verificador {
+    margin-top: 10px;
 }
 footer {
     color: white;
