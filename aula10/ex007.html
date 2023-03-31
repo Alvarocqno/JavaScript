@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somando Numeros</title>
+    <style>
+            body{
+                font: normal 20 pt Arial;
+            }
+            input{
+                font: normal 18 pt Arial;
+                width: 100 px;
+            }
+            div#res {
+                margin-top: 20px;
+            }
+        </style>
+
 </head>
 <body>
     <h1>Somando valores</h1>
@@ -12,22 +25,9 @@
     <input type="text" name="txtn2" id="txtn2">
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
-    <style>
-        body{
-            font: normal 20 pt Arial;
-        }
-        input{
-            font: normal 18 pt Arial;
-            width: 100 px;
-        }
-        div#res {
-            margin-top: 20px;
-        }
-    </style>
+   
     <script>
-        
-
-
+    
         function somar() {
             var tn1 = window.document.getElementById('txtn1')
             var tn2 = window.document.querySelector('input#txtn2')

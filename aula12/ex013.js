@@ -26,4 +26,5 @@ switch (diaSem) {
         break
     default:
         console.log('[ERRO] Data invalida')
+        break
 }
