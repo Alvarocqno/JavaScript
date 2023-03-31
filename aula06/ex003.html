@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(167, 167, 209);
+            color: white;
+            font: normal 25pt Arial; /* comentario em css*/
+        }
+        h1 {
+            color: rgb(245, 231, 33);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--comentario em html-->
+    <p>já me livrei da maldição</p>
+    <script>
+      var n1 = window.prompt('digite um número:') //retorna string
+      var n2 = Number.parseInt(window.prompt('digite outro numeor')) //string, com parseInt se torna inteiro
+      var s = parseInt(n1) + n2 //formas diferentes de transformar String em int
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //${} chama se template strings (placeholder) entre crases
+      //window.alert('A soma entre n1 e n2 é ' + s) //Concatenação
+      // window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
+      //para transformar inteiro em string: String(n) ou n.toString()
+
+    </script>
+</body>
+</html>

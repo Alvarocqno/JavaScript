@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Qual sua nacionalidade?</h1>
+    Informe a sua nacionalidade: <input type="text" id="Nac">
+    <input type="button" value="Analisar" onclick="analisar()">
+    <div id="resposta">  </div>
+
+    <script>
+        function analisar() {
+            var n = window.document.getElementById('Nac')
+            var res = window.document.querySelector('div#resposta')
+            if (n == 'Brasileiro'){
+                res.innerHTML += 'Você é um cidadão Brasileiro'
+            } else {
+                res.innerHTML += 'Você é um cidadão estrangeiro'
+            }
+        }
+    </script>
+    
+</body>
+</html>
