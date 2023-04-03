@@ -16,8 +16,16 @@ section {
     margin: auto;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.363);
 }
+ #foto  {
+    text-align: center;
+    padding: 10px;
+ }
+ #msg {
+    text-align: center;
+    padding: 5px;
+ }
 footer {
-    color: white;
+    color: black ;
     text-align: center;
     font-style: italic;
     
