@@ -16,7 +16,7 @@ function verificar() {
             genero = 'Home'
             if (idade >= 0 && idade < 10) {
                 //Criança
-                img.setAttribute('src', 'criancaH.jpg')
+                img.setAttribute('src', 'criancaH.png')
             } else if (idade < 21) {
                 //Jovem
                 img.setAttribute('src', 'jovemH.png')
@@ -31,7 +31,7 @@ function verificar() {
             genero = 'Muié'
             if (idade >= 0 && idade < 10) {
                 //Criança
-                img.setAttribute('src', 'criancaM.jpg')
+                img.setAttribute('src', 'criancaM.png')
             } else if (idade < 21) {
                 //Jovem
                 img.setAttribute('src', 'jovemM.png')
