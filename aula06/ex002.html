@@ -21,7 +21,12 @@
     <p>já me livrei da maldição</p>
     <script>
        var nome = window.prompt('Qual é seu nome?') //comentario em js
-        alert('é um grande prazer em te conhecer, ' + nome + '!') // "+": Concatenação
+        if (nome == ('Alvaro', 'alvaro')) { 
+            alert('Acesso autorizado')
+        } else {
+            alert('Seu acesso não foi autorizado!')
+            
+        }
     </script>
 </body>
 </html>
