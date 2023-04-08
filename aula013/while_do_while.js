@@ -7,4 +7,5 @@ do {
 
 while (c <= 10) {
     console.log(`${c}`)
+    c++
 }
