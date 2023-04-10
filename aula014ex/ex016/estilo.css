@@ -14,19 +14,14 @@ form {
     padding:  15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.363);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-form > div {
-    margin: 5px;
-}
-input {
-    margin: 3px;
-}
 
-#verificador {
+
+/*#verificador {
     margin-top: 10px;
-}
+}*/
 footer {
     color: white;
     text-align: center;
