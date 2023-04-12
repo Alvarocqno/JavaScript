@@ -12,31 +12,24 @@
     <header>
         <h1>Verificador de idades</h1>
     </header>
-    <form action="">
-        <fieldset>
-            <legend for="">Ano de nascimento</legend>
-            <input type="date" name="" id=""> <br>
-        </fieldset>
-        <fieldset>
-            <legend>Sexo: </legend>
-            <input type="radio" name="sexo" id="imasculino"><label for="imasculino">Masculino</label>
-            <input type="radio" name="sexo" id="ifeminino"><label for="ifeminino">Feminino</label> <br>
-        </fieldset>
-        <input id="verificador" type="button" value="Verificar" onclick="analisar()">
-        <h4> </h4>
-    </form>
+    <main>
+        <form action="">
+            <div id="dados">
+                Número: <input type="number" name="" id="inum">
+                <input type="button" value="Gerar Taboada" onclick="gera_tabuada()">
+            </div>
+            <div>
+                <select name="tabuada" id="tab" size="10" >
+                   <option>Digite um numero acima:</option>
+
+                </select>
+            </div>
+    </main>
     
     
-    <footer>
+    <footer id="rodape">
         <p>&copy; Alvaro C.</p>
     </footer>
-    <script>
-        
-        function analisar() {
-            var sexo = document.getElementById('0') 
-            if ()
-        }
-
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>

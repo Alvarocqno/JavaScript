@@ -17,8 +17,10 @@ form {
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.363);
 }
 
-#verificador {
-    margin-top: 10px;
+select {
+    height: auto;
+    width: auto;
+
 }
 footer {
     color: white;
