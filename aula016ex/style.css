@@ -1,0 +1,28 @@
+charset: "UTF-8"
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: aqua;
+}
+
+html {
+    background-color: rgb(57, 84, 235);
+}
+body > h1 {
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+
+}
+section {
+    margin: auto;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+    padding: 20px;
+    
+
+}
