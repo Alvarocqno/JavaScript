@@ -1,11 +1,11 @@
-let nome = ['ana', 'ama', 'bia']
+let nome = ['zena', 'ama', 'bia']
 
 
 nome.push('alfredo') //adiciona o item ao final do array, igual o insert do python
 let total = nome.length //pega quantos itens exitem no array
 let ord = nome.sort()  //ordena o array, igual no python
 console.log(total)
-console.log(ord)
+console.log(nome)
 
 for(let pos = 0;pos < nome.length;pos++) {
     console.log(`${nome[pos]}`)
